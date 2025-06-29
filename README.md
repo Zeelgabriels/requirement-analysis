@@ -14,7 +14,7 @@ It serves as a roadmap that defines what the system should do (functional requir
 During this phase, business analysts and developers work closely with stakeholders to understand what the system should do, how it should perform, and what constraints it must operate within. This process transforms abstract ideas and business needs into concrete, actionable requirements that guide the development team throughout the project lifecycle.
 
 
-### Importance of Requirement Analysis:
+### The Purpose of Requirement Analysis:
 - To understand **what the client wants**
 - To define **clear scope and expectations**
 - To reduce **risks of miscommunication** and costly rework
