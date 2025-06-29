@@ -42,3 +42,23 @@ Here are key reasons why it matters:
 
 5. **Supports Testing and Validation**
    - Test cases and acceptance criteria are built directly from well-defined requirements, ensuring the final product meets expectations.
+
+
+## Key Activities in Requirement Analysis
+
+Requirement Analysis is a multi-step process that involves various activities to capture and refine the software's expectations and behavior. It consists of five key activities that work together to ensure comprehensive understanding and documentation of system requirements:
+
+### 1. Requirement Gathering
+- Collecting initial input from stakeholders, users, and domain experts about the system's goals, features, and constraints. It is the initial phase where information is collected from various stakeholders through interviews, surveys, workshops, and observation of existing systems.
+
+### 2. Requirement Elicitation
+- Engaging users through interviews, workshops, surveys, and observation to uncover needs that may not be explicitly stated. This involves a deeper exploration of stakeholder needs through techniques like brainstorming, prototyping, and use case development to uncover implicit requirements.
+
+### 3. Requirement Documentation
+- Organizing and recording the gathered information in a structured format such as Software Requirement Specification (SRS) documents, user stories, or feature lists. It involves a systematic recording of all identified requirements in a clear, structured format that can be easily understood and referenced by all team members.
+
+### 4. Requirement Analysis and Modeling
+- Analyzing the feasibility, priority, and clarity of each requirement. Creating models (e.g., use case diagrams, data flow diagrams) to visualize how the system will behave. This involves the process of analyzing documented requirements for consistency, completeness, and feasibility, often using visual models like flowcharts and diagrams.
+
+### 5. Requirement Validation
+- Ensuring that all documented requirements are accurate, complete, and aligned with stakeholder expectations through reviews, feedback, and approval cycles. This is the final verification step where requirements are reviewed with stakeholders to ensure accuracy and completeness before development begins.
