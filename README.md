@@ -62,3 +62,64 @@ Requirement Analysis is a multi-step process that involves various activities to
 
 ### 5. Requirement Validation
 - Ensuring that all documented requirements are accurate, complete, and aligned with stakeholder expectations through reviews, feedback, and approval cycles. This is the final verification step where requirements are reviewed with stakeholders to ensure accuracy and completeness before development begins.
+
+
+## Types of Requirements
+
+### Functional Requirements
+Functional requirements specify what the system must do. Based on the system design insights, here’s a refined list:
+
+### 1. Property Management by Hosts
+
+- Hosts can add, update, or remove listings—including room types, availability calendar, pricing, and media uploads. 
+
+### 2. User Authentication & Profile Management
+
+- Users can sign up, log in, update their profile, and manage their booking history. 
+
+### 3. Search Properties
+
+- Users can search listings with filters like location, date-range, price, amenities, and sort preferences.
+
+### 4. View Property Details
+
+- Users can view detailed property pages with images, descriptions, ratings, host info, and price breakdown.
+
+### 5. Make a Booking
+
+- After selecting dates and room type, users can reserve and pay. Booking details sync with host and guest records. 
+geeksforgeeks.org
+
+### 6. Prevent Double Booking
+
+- The system must check/freeze availability to avoid duelling reservation attempts. 
+
+### 7. Notifications
+
+- Send email/SMS confirmations for bookings, cancellations, and reminders.
+
+
+### Non-Functional Requirements
+Non-functional requirements specify how well the system performs those functions:
+
+### 1. Performance & Response Time
+
+- Search operations should return results within 500 ms. 
+
+Property pages should load within 2 seconds.
+
+### 2. Scalability & High Availability
+
+- The system should support microservice scaling, leverage CDNs for static assets, and be highly available (≥99.9%). 
+
+### 3. Data Consistency & Transaction Safety
+
+- Booking operations (availability decrement + reservation creation) must be processed atomically and prevent race conditions (optimistic locking or similar). 
+
+### 4. Security & Data Protection
+
+- User data must be encrypted in transit and at rest; payment processing must follow secure, PCI-compliant flows.
+
+### 5 Caching & Low Latency
+
+- Frequently read data (property info, session tokens) should be cached (e.g., Redis, CDN) for performance. 
