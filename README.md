@@ -123,3 +123,10 @@ Property pages should load within 2 seconds.
 ### 5 Caching & Low Latency
 
 - Frequently read data (property info, session tokens) should be cached (e.g., Redis, CDN) for performance. 
+
+
+## Use Case Diagram
+
+Below is the Use Case Diagram for the Booking Management System:
+
+![ALX Booking System Use Case Diagram](alx-booking-uc.png)
