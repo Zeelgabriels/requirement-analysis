@@ -199,12 +199,7 @@ For the booking system's checkout feature, the acceptance criteria might include
    - Maintain booking selection if payment fails
    - Offer alternative payment methods when primary method fails
 
-**Acceptance Criteria Success Metrics:**
-- Payment success rate > 99%
-- Checkout completion time < 60 seconds
-- User satisfaction score > 4.5/5 for checkout experience
-
-### Sample bullet checklists for Acceptance Criteria _required for QA testers and dev teams.
+### Sample bullet checklists for Acceptance Criteria - _required for QA testers and dev teams._
 
 **Feature:** As a Guest, I want to book a property and pay for it securely so that I can reserve my stay.
 
@@ -214,3 +209,8 @@ For the booking system's checkout feature, the acceptance criteria might include
 - [ ] After payment, a booking confirmation must be displayed and emailed to the guest within 1 minute.
 - [ ] The booked dates must be marked as unavailable for future users.
 - [ ] If payment fails, the booking is not created and an error message is shown to the user.
+
+**Acceptance Criteria Success Metrics:**
+- Payment success rate > 99%
+- Checkout completion time < 60 seconds
+- User satisfaction score > 4.5/5 for checkout experience
