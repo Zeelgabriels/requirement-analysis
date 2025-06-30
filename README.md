@@ -155,3 +155,62 @@ _Diagram Description: This diagram visualizes how different actors interact with
 - **Payment Processing**: Handle booking payments
 - **User Management**: Administrative control over user accounts
 - **Report Generation**: Create system usage and booking reports
+
+
+## Acceptance Criteria
+
+Acceptance Criteria are specific conditions that must be met for a feature to be considered complete and acceptable to stakeholders. They serve as a contract between the development team and stakeholders, defining the boundaries of what will be delivered.
+
+### Importance of Acceptance Criteria:
+- **Clear Expectations**: Eliminates ambiguity about what constitutes a complete feature
+- **Testing Guidelines**: Provides a basis for creating test cases and validation scenarios
+- **Quality Assurance**: Ensures features meet business requirements before release
+- **Scope Management**: Helps prevent scope creep by clearly defining feature boundaries
+
+### Example: Checkout Feature Acceptance Criteria
+
+For the booking system's checkout feature, the acceptance criteria might include:
+
+**Feature**: Booking Checkout Process
+
+**Given** a registered user has selected a booking option  
+**When** they proceed to checkout  
+**Then** the system should:
+
+1. **Display Booking Summary**
+   - Show selected dates, times, and services
+   - Display total cost breakdown including taxes and fees
+   - Present cancellation policy clearly
+
+2. **Payment Processing**
+   - Accept major credit cards (Visa, MasterCard, American Express)
+   - Validate payment information in real-time
+   - Process payment securely using encrypted connections
+   - Display confirmation within 3 seconds of successful payment
+
+3. **Booking Confirmation**
+   - Generate unique booking reference number
+   - Send confirmation email within 2 minutes
+   - Update booking status in user's account immediately
+   - Provide option to add booking to calendar
+
+4. **Error Handling**
+   - Display clear error messages for failed payments
+   - Maintain booking selection if payment fails
+   - Offer alternative payment methods when primary method fails
+
+### Sample bullet checklists for Acceptance Criteria - _required for QA testers and dev teams._
+
+**Feature:** As a Guest, I want to book a property and pay for it securely so that I can reserve my stay.
+
+**Acceptance Criteria:**
+- [ ] The booking form must include fields for check-in/check-out dates, guest count, and payment method.
+- [ ] The system must validate property availability before confirming a booking.
+- [ ] After payment, a booking confirmation must be displayed and emailed to the guest within 1 minute.
+- [ ] The booked dates must be marked as unavailable for future users.
+- [ ] If payment fails, the booking is not created and an error message is shown to the user.
+
+**Acceptance Criteria Success Metrics:**
+- Payment success rate > 99%
+- Checkout completion time < 60 seconds
+- User satisfaction score > 4.5/5 for checkout experience
