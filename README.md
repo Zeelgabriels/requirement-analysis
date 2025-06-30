@@ -127,8 +127,31 @@ Property pages should load within 2 seconds.
 
 ## Use Case Diagram
 
-Below is the Use Case Diagram for the Booking Management System:
+Use Case Diagrams are visual representations that show the interactions between users (actors) and the system to achieve specific goals. They provide a high-level view of the system's functionality and help stakeholders understand what the system will do and who will use it.
+
+### Benefits of Use Case Diagrams:
+- **Clear Communication**: They provide a visual way to communicate system functionality to both technical and non-technical stakeholders
+- **Scope Definition**: Help define the boundaries of the system and what features will be included
+- **User-Centered Design**: Focus on user goals and interactions rather than technical implementation
+- **Requirements Validation**: Make it easier to validate that all user needs are captured
+
+### Booking System Use Case Diagram
+
+The diagram below illustrates the key actors and use cases for our booking management system:
 
 ![ALX Booking System Use Case Diagram](alx-booking-uc.png)
 
 _Diagram Description: This diagram visualizes how different actors interact with key functions of the Booking Management System. It supports planning system boundaries, responsibilities, and user expectations._
+
+**Actors:**
+- **Guest User**: Unregistered users who can search and view availability
+- **Registered User**: Authenticated users who can make, modify, and manage bookings
+- **Administrator**: System administrators who manage the platform and generate reports
+
+**Key Use Cases:**
+- **Search Bookings**: Find available booking options based on criteria
+- **Make Booking**: Create new reservations
+- **Modify/Cancel Booking**: Update or remove existing bookings
+- **Payment Processing**: Handle booking payments
+- **User Management**: Administrative control over user accounts
+- **Report Generation**: Create system usage and booking reports
