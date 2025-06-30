@@ -130,3 +130,5 @@ Property pages should load within 2 seconds.
 Below is the Use Case Diagram for the Booking Management System:
 
 ![ALX Booking System Use Case Diagram](alx-booking-uc.png)
+
+_Diagram Description: This diagram visualizes how different actors interact with key functions of the Booking Management System. It supports planning system boundaries, responsibilities, and user expectations._
